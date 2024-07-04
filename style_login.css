@@ -1,0 +1,65 @@
+/* Hariharan119 */
+* {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+}
+
+body {
+    background-color: #102C57;
+}
+
+h1 {
+    color: #102C57;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    margin: 100px auto;
+    box-shadow: 10px 10px;
+
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    border: 2px solid black;
+    box-shadow: 3px 3px;
+    font-size: 17px;
+}
+
+button:hover {
+    background-color: #102C57;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #102C57;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
